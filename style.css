@@ -1,0 +1,27 @@
+*{
+    margin: 0;/* espaçamento externo */
+    padding: 0;/* espaçamento interno */
+}
+
+h1 {
+    color: red;/* ADICIONA COR DA LETRA */
+    background-color: blue;/* ADICIONA COR DO FUNDO */
+    font-size: 50px;
+    margin: 50px;
+    padding: 50px;
+    text-transform: uppercase;/* letra maiuscula */
+    font-weight: bold;/* espessura */
+    font-family: 'Courier New', Courier, monospace;/* estilo da fonte */
+    letter-spacing: 5px;/* espaçamento entre as letras*/
+    text-align: center;/* centralizar texto */
+
+    border-radius: 30px;/* arendondamento das bordas */
+    border: solid black 5px; /* aumento da borda */
+    box-shadow: rgba(0, 0, 0, 0.501) 10px 10px 20px;/* sombras das caixas */
+    
+
+}
+
+p{
+    text-align: justify;/* texto alinhado */
+}
