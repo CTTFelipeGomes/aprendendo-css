@@ -1,0 +1,14 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+  }
+  p {
+    background-color: rgb(255, 94, 0);
+  }
+  .bg-azul{/* selecionar cor de paragrafos */
+    background-color: blue;
+  }
+#bg-felipe{
+    background-color: aqua;
+}
