@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    animation: trocar-cor 2s infinite;
+    /* muda cor de letra */
+}
+
+@keyframes trocar-cor {
+
+    /* colocar cor na letra */
+    0% {
+        /* cor primaria */
+        color: blue;
+    }
+
+    50% {
+        /* cor secundaria */
+        color: red;
+    }
+
+    100% {
+        color: aquamarine;
+    }
+
+    0% {
+        opacity:
+            /* movimentação das letras */
+            0;
+    }
+}
+
+
+
+@keyframes rodar {
+    0% {
+        transform: rotate(360deg);
+        /* fazer rotação */
+    }
+}
+
+img {
+    width: 500px;
+    animation: flutuar 10s infinite;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+@keyframes flutuar {
+    0% {
+        transform: rotate(60deg);
+        scale: 5;
+    }
+
+    25% {
+        transform: rotate(-90deg);
+    }
+
+    75% {
+        transform: rotate(50deg);
+
+    }
+
+    100% {
+        transform: rotate(-30deg);
+
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading {
+    width: 600px;
+    height: 50px;
+    border-radius: 100px;
+    border: 10px solid black;
+
+}
+
+.div-filho {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    border: radius 50px;
+    animation: load ease-in-out 10s;
+
+}
+
+@keyframes load {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 50%;
+    }
+    100%{
+        width: 100%;
+    }
+}
