@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div{
+    padding: 100px;
+    text-align: center;/* texto centralizado */
+    background-position: center;/* posicionar */
+    background-repeat: no-repeat;/* para nao repetir as imagens varias vezes */
+    background-size: cover;/* centralizar a imagem do tamanho ideal */
+    background-attachment: fixed;/* efeito parallax */
+    
+}
+.img1 ,.img3, .img5{
+    color: #fff;
+}
+
+p{
+    margin-top: 30px;
+}
+
+.img1{
+    background-image: url(./img/arara.jpg)
+}
+.img3{
+    background-image: url(./img/cachorro.jpg);
+}
+.img5{
+    background-image: url(./img/iguana.jpg);
+}
